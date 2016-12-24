@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_sing_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mybackground"
+    tools:context="de.freshmaninandroid.app_programmierung.newproject.SingUpActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_widget"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/toolBarColor"
+        android:elevation="2dp"
+        app:title="@string/app_name"
+        app:titleTextColor="@android:color/white"
+        />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="320dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/toolbar_widget"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/singupimage" />
+
+
+    <EditText
+        android:id="@+id/singUpText"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/image_view"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:paddingLeft="4dp"
+        android:background="@drawable/form_shape"
+        android:hint="@string/name"
+
+
+        />
+
+    <EditText
+        android:id="@+id/singUpPassword"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/singUpText"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/form_shape"
+        android:hint="@string/password_form"
+        android:paddingLeft="4dp"
+        android:inputType="textPassword" />
+
+
+    <EditText
+        android:id="@+id/singUpEmail"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/singUpPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/form_shape"
+        android:hint="@string/email_form"
+        android:paddingLeft="4dp"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/singup_button"
+        android:layout_width="280dp"
+        android:layout_height="43dp"
+        android:layout_below="@id/singUpEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_shape"
+        android:elevation="4dp"
+        android:onClick="onClick"
+        android:text="@string/sing_up"
+
+        />
+
+
+</RelativeLayout>
+
+

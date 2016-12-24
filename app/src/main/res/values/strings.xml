@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TwaddleApp</string>
+    <string name="title">TwaddleApp</string>
+    <string name="login_button">Login</string>
+    <string name="email_form">Email</string>
+    <string name="password_form">Password</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="sing_up">Sing up</string>
+    <string name="toast_inputAllFields">Заполните все поля</string>
+
+    <string name="name">Name</string>
+    <string-array name="item_array">
+        <item>Login Screen</item>
+        <item>SingUp Screen</item>
+    </string-array>
+</resources>
